@@ -1,0 +1,36 @@
+.content_task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.gestao_task {
+  display: flex;
+  justify-content: space-between;
+
+  width: 736px;
+}
+
+.tarefa_criada {
+  color: var(--blue-200);
+}
+
+.tarefa_concluida {
+  color: var(--purple-400);
+}
+
+.gestao_task h3 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-family: var(--font-principal);
+}
+
+.gestao_task span {
+  padding: 2px 8px;
+  border-radius: 8px;
+
+  color: var(--gray-100);
+  background: var(--gray-400);
+}
