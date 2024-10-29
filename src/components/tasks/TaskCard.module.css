@@ -1,0 +1,84 @@
+.task_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+
+  width: 736px;
+  height: 4.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--cinza-400);
+  padding: 1rem;
+
+  font-family: var(--font-principal);
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--cinza-500);
+}
+
+.task_card + .task_card {
+  margin-top: 12px;
+}
+
+.task_card p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-principal);
+  color: var(--cinza-100);
+}
+
+.task_finalizada {
+  text-decoration: line-through;
+  color: var(--cinza-300) !important;
+}
+
+.task_card > button {
+  padding: 5px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+
+  background: transparent;
+  color: var(--cinza-300);
+  transition: 0.1s;
+}
+
+.task_card > button:not(:disabled):hover {
+  background: var(--cinza-400);
+  color: var(--vermelho-300);
+}
+
+.button_check_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+
+  color: var(--cinza-100);
+  background-color: var(--cinza-500);
+  border: 2px solid var(--azul-200);
+
+  transition: background-color 0.1s ease, border-color 0.1s ease;
+}
+
+.button_check_box:hover {
+  background-color: var(--cinza-500);
+  border: 2px solid var(--azul-400);
+}
+
+.button_check_box_clicked {
+  background-color: var(--purple-400);
+  border: 2px solid var(--purple-400);
+}
+
+.button_check_box_clicked:hover {
+  background-color: var(--purple-200);
+  border: 2px solid var(--purple-200);
+}

@@ -2,20 +2,20 @@
 
 :root {
   --white: #ffffff;
-  --gray-100: #f2f2f2;
-  --gray-200: #d9d9d9;
-  --gray-300: #808080;
-  --gray-400: #333333;
-  --gray-500: #262626;
-  --gray-600: #1a1a1a;
-  --gray-700: #0d0d0d;
+  --cinza-100: #f2f2f2;
+  --cinza-200: #d9d9d9;
+  --cinza-300: #808080;
+  --cinza-400: #333333;
+  --cinza-500: #262626;
+  --cinza-600: #1a1a1a;
+  --cinza-700: #0d0d0d;
 
-  --blue-200: #4ea8de;
-  --blue-400: #1e6f9f;
+  --azul-200: #4ea8de;
+  --azul-400: #1e6f9f;
   --purple-200: #8284fa;
   --purple-400: #5e60ce;
 
-  --danger-300: #e25858;
+  --vermelho-300: #e25858;
 
   --font-principal: Inter, sans-serif;
 }
@@ -27,7 +27,7 @@
 }
 
 body {
-  background: var(--gray-600);
-  color: var(--gray-100);
+  background: var(--cinza-600);
+  color: var(--cinza-100);
   -webkit-font-smoothing: antialieased;
 }
